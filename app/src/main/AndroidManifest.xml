@@ -10,7 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OpenTvPlayer"
-         />
+        android:theme="@style/Theme.OpenTvPlayer">
+        <activity
+            android:name=".ActivityMain"
+            android:exported="false"
+            android:label="@string/title_activity_main">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
 
 </manifest>
